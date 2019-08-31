@@ -1,0 +1,13 @@
+<div class="body">
+	<mat-sidenav-container class="output-section">
+		<mat-sidenav #sidenav mode="side" opened class="output-sidenav">
+			<div class="sidenav-menu" [ngClass]="{'active':activeMenu === 'intro'}" (click)="goToSection('intro')">menu 1</div>
+			<div class="sidenav-menu" [ngClass]="{'active':activeMenu === 'menu2'}" (click)="goToSection('menu2')">menu 2</div>
+		</mat-sidenav>
+
+		<mat-sidenav-content>
+			<router-outlet></router-outlet>
+		</mat-sidenav-content>
+	</mat-sidenav-container>
+
+</div>

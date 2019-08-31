@@ -1,0 +1,46 @@
+
+.body{
+	padding: 0;
+}
+.output-section{
+	position: absolute;
+  	left: 0;
+	right: 0;
+	min-height: calc(100vh - 72px);
+
+	.mat-drawer-content{
+		padding: 2% 10%;
+		overflow: hidden;
+	}
+}
+  
+.output-sidenav {
+	width: 100%;
+}
+.mat-drawer{
+	width: 336px;
+	overflow:unset;
+	background: rgba(105,205,158,0.1);
+	position: fixed;
+}
+
+.sidenav-menu{
+	height: 72px;
+	font-family: "proxima_nova_semibold";
+	font-size: 12px;
+	letter-spacing: 2.4px;
+	display: flex;
+	align-items: center;
+	color: rgba(44, 46, 49, 0.7);
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	text-transform: uppercase;
+	cursor: pointer;
+	
+	&.active {
+		position: relative;
+		background: #3f51b5;
+		color: #fff;
+		// border: 2px solid #3f51b5;
+	}
+}

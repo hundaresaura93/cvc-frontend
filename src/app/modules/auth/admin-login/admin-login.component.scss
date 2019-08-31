@@ -1,0 +1,246 @@
+.admin-login-panel {
+	display: flex;
+	justify-content: center;
+	font-family: 'Open Sans', sans-serif;
+	height: 100vh;
+	align-items: center;
+
+	.admin-login-form {
+		height: 670px;
+		width: 40%;
+		background: #fff;
+		border-radius: 12px;
+		display: flex;
+		background-color: #FFFFFF;
+		box-shadow: 1px 1px 5px 5px rgba(69,13,174,0.1);
+		
+		.form-block{
+			flex: 0 67.63%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin-left: auto;
+			margin-right: auto;
+
+			form {
+				// width: 28%;
+				// margin-left: auto;
+				// margin-right: auto;
+				// margin-top: 8%;
+				// margin-bottom: 8%;
+
+				.form-body {
+					// margin: 60px 0;
+					margin-top: 7.14%;
+					width: 65%;
+					justify-content: center;
+					margin-bottom: 3.57%;
+					margin-left: auto;
+					margin-right: auto;
+
+					.mat-form-field {
+						width: 100%;
+						margin-bottom: 5px;
+					}
+
+					.mat-error {
+						font-size: 14px;
+						text-align: left;
+						margin-bottom: 1%;
+					}
+					mat-label{
+						height: 12px;
+						width: 75px;
+						opacity: 0.6;
+						color: #2fa1f7;
+						font-family: "open_sans_light";
+						font-size: 16px;
+						font-weight: 300;
+						line-height: 0;
+						padding-left: 16px;
+					}
+					small{
+						float: right;
+						color: #AAAEB3;
+						font-family: "open_sans_light";
+						font-size: 12px;
+						font-weight: 300;
+						line-height: 0;
+						text-align: right;
+						cursor: pointer;
+					}
+				}
+				.mat-form-field-label-wrapper {
+					top: -1.04375em;
+					padding-top: 5px!important;
+				}
+			}
+
+			.form-header {
+				color: #2C2E31;
+				font-family: 'proxima_nova_regular';
+				font-size: 24px;
+				text-align: center;
+				p{
+					opacity: 0.8;
+					color: #818183;
+					font-family: "open_sans_light";
+					font-size: 16px;
+					line-height: 24px;
+					text-align: center;
+				}
+			}
+			.form-header-subtitle{
+				height: 17px;
+				/* width: 425px; */
+				opacity: 0.8;
+				color: #818183;
+				font-family: "open_sans_light";
+				font-size: 16px;
+				font-weight: 300;
+				line-height: 24px;
+				text-align: center;
+				padding-top: 3.42%;
+				// padding-top: 18.42%;
+				p{
+					height: 12px;
+					opacity: 0.8;
+					color: #818183;
+					font-family: "open_sans_light";
+					font-size: 12px;
+					font-weight: 300;
+					text-align: center;
+				}
+			}
+		}
+
+	}
+}
+.form-footer {
+	margin-left: 30%;
+    margin-right: 30%;
+	margin-top: 9.17%;
+	display: flex;
+    justify-content: center;
+
+	button {
+		// margin-bottom: 48px;
+		margin-bottom:4.02%;
+		cursor: pointer;
+	}
+
+	span {
+		// color: #666;
+		color: #AAAEB3;
+		font-family: "open_sans_light";
+		font-size: 11px;
+		font-weight: 300;
+		line-height: 0;
+	}
+
+	a {
+		color: black;
+		text-decoration: none;
+	}
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+	.admin-login-panel {
+		.admin-login-form{
+			// height: 672px;
+			width: 100%;
+			margin: 1em;
+			height: 100%;
+			.form-block{
+				width: 60%;
+			}
+		}
+	}
+
+	.login-btn{
+		height: 40px !important;
+		width: 110px !important;
+		line-height: 0;
+	}
+	.mat-button{
+		font-size: 12px;
+	}
+}
+.mat-form-field-flex{
+	// background: #c2c3c3;
+	background-color: rgba(44, 45, 48, 0.07)!important;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+/*-------------------------------------------------i pad pro--------------------------------------------*/
+@media only screen
+  and (min-device-width: 834px)
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	.admin-login-panel {
+		.admin-login-form{
+			// height: 672px;
+			width: 100%;
+			margin: 1em;
+			height: 100%;
+			.form-block{
+				width: 48%;
+			}
+		}
+	}
+}
+/*--------------------------------------------media query for laptop-------------------------------------*/
+@media only screen
+and (min-device-width : 1366px)
+and (max-device-width : 1369px) {
+	.admin-login-panel{
+		.admin-login-form{
+			margin: 0em;
+			width: 55%;
+			height: 500px;
+			
+			.form-block{
+				margin-bottom: 4%;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 4%;
+				form{
+					margin-top: 0%;
+				}
+				.form-body{
+					margin-top: 3.14%!important;
+					.mat-form-field{
+						margin-top: 2%;
+						margin-bottom: 20px!important;
+					}
+					/* .mat-error:last-child{
+						margin-bottom: 5px!important;
+					} */
+					small{
+						margin-top: 15px;
+					}
+				}
+			}
+		}
+		.form-footer{
+			button{
+				height: 45px;
+			}
+		}
+	}
+	.cdk-text-field-autofill-monitored:-webkit-autofill {
+		width: 97%;
+	}
+}
+/*----------------------------------------------macbook quries--------------------------------------------*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+	.admin-login-panel{
+		.admin-login-form{
+			margin: 1em;
+		}
+	}
+
+  }

@@ -1,0 +1,234 @@
+/** Proxima Nova **/
+@font-face {
+	font-family: 'proxima_nova_black_italic';
+	src: url('Proxima-Nova/Proxima Nova Black Italic.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'proxima_nova_black_italic';
+	src: url('Proxima-Nova/proxima_nova_black_italic-webfont.woff2') format('woff2'),
+         url('Proxima-Nova/proxima_nova_black_italic-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'proxima_nova_black';
+	src: url('Proxima-Nova/Proxima Nova Black.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'proxima_nova_black';
+	src: url('Proxima-Nova/proxima_nova_black-webfont.woff2') format('woff2'),
+         url('Proxima-Nova/proxima_nova_black-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'proxima-nova-bold-italic';
+	src: url('Proxima-Nova/Proxima Nova Bold Italic.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'proxima-nova-bold-italic';
+	src: url('Proxima-Nova/proxima_nova_bold_italic-webfont.woff2') format('woff2'),
+         url('Proxima-Nova/proxima_nova_bold_italic-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'proxima_nova_bold';
+	src: url('Proxima-Nova/proxima_nova_bold-webfont.woff2') format('woff2'),
+         url('Proxima-Nova/proxima_nova_bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'proxima_nova_extrabold_italic';
+	src: url('Proxima-Nova/Proxima Nova Extrabold Italic.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'proxima_nova_extrabold_italic';
+	src: url('Proxima-Nova/proxima_nova_extrabold_italic-webfont.woff2') format('woff2'),
+         url('Proxima-Nova/proxima_nova_extrabold_italic-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'proxima_nova_extrabold';
+	src: url('Proxima-Nova/Proxima Nova Extrabold.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'proxima_nova_extrabold';
+	src: url('Proxima-Nova/proxima_nova_extrabold-webfont.woff2') format('woff2'),
+         url('Proxima-Nova/proxima_nova_extrabold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'proxima_nova_light_italic';
+	src: url('Proxima-Nova/Proxima Nova Light Italic.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'proxima_nova_light_italic';
+	src: url('Proxima-Nova/proxima_nova_light_italic-webfont.woff2') format('woff2'),
+         url('Proxima-Nova/proxima_nova_light_italic-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'proxima_nova_light';
+	src: url('Proxima-Nova/proxima_nova_light-webfont.woff2') format('woff2'),
+         url('Proxima-Nova/proxima_nova_light-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'proxima_nova_regular_italic';
+	src: url('Proxima-Nova/Proxima Nova Regular Italic.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'proxima_nova_regular_italic';
+	src: url('Proxima-Nova/proxima_nova_regular_italic-webfont.woff2') format('woff2'),
+         url('Proxima-Nova/proxima_nova_regular_italic-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'proxima_nova_regular';
+	src: url('Proxima-Nova/proxima_nova_regular-webfont.woff2') format('woff2'),
+         url('Proxima-Nova/proxima_nova_regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'proxima_nova_semibold_italic';
+	src: url('Proxima-Nova/Proxima Nova Semibold Italic.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'proxima_nova_semibold_italic';
+	src: url('Proxima-Nova/proxima_nova_semibold_italic-webfont.woff2') format('woff2'),
+         url('Proxima-Nova/proxima_nova_semibold_italic-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'proxima_nova_semibold';
+	src: url('Proxima-Nova/Proxima Nova Semibold.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'proxima_nova_semibold';
+	src: url('Proxima-Nova/proxima_nova_semibold-webfont.woff2') format('woff2'),
+         url('Proxima-Nova/proxima_nova_semibold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'proxima_nova_thin_italic';
+	src: url('Proxima-Nova/Proxima Nova Thin Italic.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'proxima_nova_thin_italic';
+	src: url('Proxima-Nova/proxima_nova_thin_italic-webfont.woff2') format('woff2'),
+         url('Proxima-Nova/proxima_nova_thin_italic-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'proxima_nova_thin';
+	src: url('Proxima-Nova/Proxima Nova Thin.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'proxima_nova_thin';
+	src: url('Proxima-Nova/proxima_nova_thin-webfont.woff2') format('woff2'),
+         url('Proxima-Nova/proxima_nova_thin-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Open sans fonts */
+
+@font-face {
+	font-family: 'open_sans_semi_bold';
+	src: url('open-sans/opensans-semibold-webfont.woff2') format('woff2'),
+         url('open-sans/opensans-semibold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'open_sans_semi_bold';
+	src: url('open-sans/OpenSans-Semibold.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sans_light';
+    src: url('open-sans/opensans-light-webfont.woff2') format('woff2'),
+         url('open-sans/opensans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sans_regular';
+    src: url('open-sans/OpenSans-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sans_bold';
+    src: url('open-sans/OpenSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'open_sans_light_italic';
+    src: url('open-sans/OpenSans-LightItalic.ttf');
+}
+
